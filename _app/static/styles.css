@@ -1,0 +1,58 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.contendor
+{
+    padding: 30px;
+    width: 36%;
+    margin-top: 16%;
+}
+
+.margin_top
+{
+    margin-top: 15px;
+}
+
+.bodySucess
+{
+    padding: 50px;
+}
+
+.conte_usari
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul
+{
+    width: 52%;
+    margin-left: 40px;
+}
+
+p
+{
+    border-bottom: 1px solid black;
+    width: 19.5%;
+}
+
+li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.letraFecha, p, li, a
+{
+    font-size: 28px;
+}

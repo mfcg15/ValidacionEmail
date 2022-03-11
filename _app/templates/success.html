@@ -1,0 +1,23 @@
+{% extends "index.html" %}
+{% block titulo%}
+    <title>Success Page</title>
+{% endblock %}
+{% block contenedor%}
+    <body class="bodySucess">
+        <p>Email Addres Entered:</p>
+        <ul>
+            {% for usuario in usuarios %}
+                <div class="conte_usari">
+                    <li>{{usuario.correo}}</li>
+                    <div class="letraFecha">
+                        {{usuario.fecha}}
+                    </div>
+                    <div class="opcionDelete">
+                        <a href="/delete/{{usuario.id}}">Delete</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </ul>
+        <a href="/">Home</a>
+    </body>
+{% endblock %}
